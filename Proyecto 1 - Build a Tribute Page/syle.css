@@ -1,0 +1,393 @@
+#entrada{
+   width: 30%;
+   height: 30%;
+   
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#entrada2{
+    width: 30%;
+    height: 30%;
+  
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#entrada3{
+    width: 30%;
+    height: 30%;
+
+    margin: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+ }
+
+#entrada img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    animation-name: agrandar;
+    animation-duration: 800ms;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: scale(0.8);
+}
+
+#entrada2 img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    animation-name: agrandardos;
+    animation-duration:800ms;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: scale(0.8);
+}
+
+#entrada3 img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    animation-name: agrandartres;
+    animation-duration: 800ms;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    transform: scale(0.8);
+}
+
+
+ @keyframes agrandar {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.1) ;
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0.8) ;
+        opacity: 0;
+      }   
+      
+} 
+
+@keyframes agrandardos {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.1) ;
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0.8) ;
+        opacity: 0;
+      }
+     
+} 
+
+@keyframes agrandartres {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.1) ;
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0.8) ;
+        opacity: 0;
+      }
+     
+} 
+
+body{
+    background-color: rgb(230, 221, 214);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50em;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+main{
+    margin: 0;
+    display: none;
+    animation-name: titulo;
+    animation-duration: 1s;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    /* position: relative; */
+}
+
+h1{
+    text-transform: uppercase;
+    animation-name: titulo-h1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    width: 65%;
+}
+
+@keyframes titulo {
+    0%{
+        transform: scale(0); 
+
+    }
+    100%{
+       
+       
+        transform: scale(1); 
+        
+        
+    }
+}
+
+.pistas{
+    line-height: 30px;
+    display: none;
+    background-color:rgb(217, 204, 174);
+    border-radius: 22px;
+    margin-bottom: 2rem;
+}
+
+.respuesta-pista{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: 70%;
+}
+
+.respuesta-pista input{
+    margin-bottom: 0.3rem;
+}
+
+.respuesta-pista button{
+    padding: 0px;
+    font-size: 100%;
+    width: 20%;
+ 
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+.respuesta-pista label{
+    margin: auto;
+}
+
+.respuesta-pista label{
+    color: hsl(2, 18%, 50%);
+}
+
+.entrada-input {
+   display: flex;
+   margin: auto;
+   width: 100%;
+}
+
+#email{
+    margin: auto;
+}
+
+.entrada-input .img{
+    background-color:lawngreen;
+    border-radius: 5%;
+    width: 4vh;
+    height: 4vh;
+    background-image: url(./check/bookmark-check.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    display: none;
+}
+
+.text-resp{
+    margin: auto;
+    display: none;
+}
+
+.respuesta-pista .auxilio{
+    line-height: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.pistas h2{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta{
+    border-radius: 22px;
+    width: 90%;
+    box-shadow: 0 8px 12px -1px rgba(0, 0, 0, 0.1), 0 4px 8px -1px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    padding: 0;
+    display: none;
+    margin-bottom: 1rem;
+}
+
+.tarjeta img{
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    width: 39%;
+   height: 100%;
+   margin-right: 3rem;
+}
+
+.tarjeta .about h2{
+    font-size: 50px;
+}
+
+.tarjeta .about p{
+    text-align: justify;
+    font-size: 150%;
+}
+
+#about-profeta{
+    display: none;
+    flex-direction: column;
+}
+
+#about-profeta ul{
+    width: 80%;
+}
+
+#about-profeta ul li{
+    margin-bottom: 2rem;
+}
+
+#about-profeta h2{
+   text-align: center;
+}
+
+#about-profeta a{
+    text-align: center;
+ }
+
+
+
+@media (min-width: 1300px) {
+
+   
+        .tarjeta .about p{
+            text-align: justify;
+            font-size: 250%;
+        }
+
+    }
+
+
+
+@media (max-width: 900px) {
+
+    .pistas{
+        width: 90%;
+    }
+
+
+.tarjeta{
+     width: 90%;
+    height: auto;
+    /*
+    background-color: white;
+    padding: 0; */
+    flex-direction: column;
+}
+
+.tarjeta img{
+    width: 100%;
+   height: 60%;
+   border-bottom-left-radius: 0px;
+   border-top-right-radius: 22px;
+}
+
+.tarjeta .about h2{
+    font-size: 200%;
+    width: 100%;
+    text-align: center;
+}
+
+.tarjeta .about p{
+    font-size: 100%;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+
+}
+
+
+@media (max-width: 375px) {
+    #entrada{
+        width: 80%;
+        height: 80%;
+     }
+     #entrada2{
+        width: 80%;
+        height: 80%;
+     }
+     #entrada3{
+        width: 80%;
+        height: 80%;
+      }
+
+    .respuesta-pista button{
+        width: 30%;
+
+    }
+    @keyframes titulo {
+        0%{
+            transform: scale(0); 
+            bottom: 0; 
+        }
+        100%{
+            transform: scale(1); 
+            bottom: 20vh; 
+        }
+    }
+    p{
+        text-align: center;
+        width: 85%;
+    }
+
+    .tarjeta img{
+        width: 100%;
+       height: 50%;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .tarjeta img{
+       height: 40%;
+    }
+
+    .respuesta-pista button{
+        width: 50%;
+
+    }
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./syle.css">
+    
+</head>
+<body>
+
+    <div id="entrada"><img src="./exodo.svg" alt=""></div>
+    <div id="entrada3"><img src="./uno.png" alt=""></div>
+
+    <main>
+        <h1 id="title">Grandes personajes biblicos</h1>
+        <p> En este articulo hablaremos de un personaje historico de la 
+            biblia, pero para hacer esto un poco entrenido, trata de 
+            averiguar de cual personaje hablaremos de acuerdo a las 
+            siguientes <span><a class="activar-pistas" href="#">tres pistas</a></span>. 
+        </p>
+
+        <section class="pistas">
+            <h2>Pistas</h2>
+            <ol>
+                <li>Su relato acontece en el siglo VI antes de cristo.</li>
+                <li>Vio la invasión de la querida Jerusalén por el rey Nabucodonosor. </li>
+                <li>De comida solamente tomaba agua y comia legumbres.</li>
+            </ol>
+
+            <div class="respuesta-pista">
+               
+                <label for="email">¿Sabes de que personaje se trata?</label>
+                <div class="entrada-input">
+                    <input type="email" id="email" placeholder="Aqui va tu respuesta"/>
+                    <div class="img"></div>
+                </div>
+                <div class="text-resp">Perfect</div>
+                <button id="button">Enviar</button>
+
+                <div class="auxilio"><a href="#tarjeta-daniel">
+                    ¿No sabes de que personaje se trata?. <br>
+                        click aqui para conocerlo.
+                </a>
+                </div>
+        
+            </div>
+        </section>
+
+        <section class="tarjeta" id="tarjeta-daniel">
+            <img src="./daniel-entre-los-leones-gustave-dore.jpg" alt="Daniel en el foso de los leones">
+            <div class="about">
+                <h2>El profeta Daniel !</h2>
+                <p>
+                    El profeta Daniel es considerado un profeta mayor. Daniel vivió en el exilio de Israel en Babilonia, sus visiones e interpretación de sueños y el famoso episodio del foso de los leones, hacen del profeta Daniel uno de los personajes más conocidos.
+                </p>
+            </div>
+        </section>
+
+        <section id="about-profeta"> <h1>Datos relevantes</h1>
+        <ul>
+            <li>Daniel hijo de David. También llamado Quileab, fue el segundo hijo del rey David con Abigail. Era mayor que sus hermanos Absalón y Adonías, pero no consta nada más sobre él <a href="https://www.biblia-es.org/biblia-1-cronicas-3.html">(1 Crónicas 3:1)</a>.</li>
+            <li>Daniel descendiente de Itamar y que acompañó a Esdras <a href="https://www.biblia-es.org/biblia-esdras-8.html">(Esdras 8:2)</a>, siendo también uno de los firmantes de la Alianza <a href="https://www.biblia-es.org/biblia-nehemias-10.html">(Nehemías 10:1)</a>.</li>
+            <li>En el libro del profeta Ezequiel hay referencias a un personaje llamado Daniel. Este Daniel es mencionado como alguien muy justo y excepcionalmente sabio <a href="https://www.biblia-es.org/biblia-ezequiel-28.html">(Ezequiel 28:3)</a>. Además, el Daniel citado en Ezequiel se compara con Noé y Job como ejemplos de rectitud.</li>
+        </ul>
+
+        <h2>!Conoce mas acerca del profeta daniel leyendo su libro que aparece en la biblia ó visita el siguiente enlace!.</h2>
+        <a href="https://www.biblia-es.org/biblia-daniel-1.html">Libro de Daniel</a>
+        </section>
+        
+    </main>
+    
+
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
