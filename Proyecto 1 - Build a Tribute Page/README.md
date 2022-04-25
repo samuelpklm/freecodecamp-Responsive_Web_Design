@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Faq acordion](design./desktop-design.jpg)
+![Faq acordion](./capture.png)
 
 
 ### Links
