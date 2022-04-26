@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solucion Page tribute](https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/Proyecto%201%20-%20Build%20a%20Tribute%20Page)
-- Live Site URL: [Page tribute](https://glowing-druid-b887c6.netlify.app/)
+- Solution URL: [Solucion Survey form](https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/Proyect%202%20-%20Survey%20form)
+- Live Site URL: [Survey form](https://elaborate-macaron-98c958.netlify.app/)
 
 ## My process
 
