@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <main>
+    <header id="titulo">
+      
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.
+        </p>
+       
+      </header>
+      <div id="price">Try it free 7 days <span> then $20/mo. thereafter</span>
+      </div>
+      
+    <section id="formulario">
+      <form id="datos">
+          <label for="name">Name <abbr title="required" aria-label="required">*</abbr></label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+
+          <label for="email">Email <abbr title="required" aria-label="required">*</abbr></label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+
+          <label for="Age">Age (optional)</label>
+          <input type="number" id="Age" placeholder="Age">
+
+          <label for="role">Which option best describes your current role? <abbr title="required" aria-label="required">*</abbr></label>
+          <select id="role" required>
+            <option disabled selected value>Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full time Job">Full time Job</option>
+            <option value="Full time Learner">Full time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+            <!-- <option value="challenges">Challenges</option> -->
+          </select>
+
+
+            <div class="form-group">
+              <p>Would you recommend freeCodeCamp to a friend? <abbr title="required" aria-label="required">*</abbr></p>
+              <label>
+                <input name="user-recommend" value="Definitely" type="radio">Definitely
+              </label>
+              <label>
+                <input name="user-recommend" value="Maybe" type="radio">Maybe
+              </label>
+              <label>
+                <input name="user-recommend" value="Not sure" type="radio" checked>Not sure
+              </label>
+            </div>
+
+          <div class="form-group">
+            <p>What would you like to see improved? (Check all that apply) </p>
+            <label>
+              <input name="prefer" value="Front-end Projects" type="checkbox" >Front-end Projects
+            </label>
+            <label>
+              <input name="prefer" value="Back-end Projects" type="checkbox">Back-end Projects
+            </label>
+            <label>
+              <input name="prefer" value="Data Visualization" type="checkbox">Data Visualization
+            </label>
+            <label>
+              <input name="prefer" value="Challenges" type="checkbox">Challenges
+            </label>
+            <label>
+              <input name="prefer" value="Open Source Community" type="checkbox">Open Source Community
+            </label>
+            <label>
+              <input name="prefer" value="Gitter help rooms" type="checkbox">Gitter help rooms
+            </label>
+            <label>
+              <input name="prefer" value="Videos" type="checkbox">Videos
+            </label>
+            <label>
+              <input name="prefer" value="City Meetups" type="checkbox">City Meetups
+            </label>
+            <label>
+              <input name="prefer" value="Wiki" type="checkbox">Wiki
+            </label>
+            <label>
+              <input name="prefer" value="Forum" type="checkbox">Forum
+            </label>
+            <label>
+              <input name="prefer" value="Additional Courses" type="checkbox">Additional Courses
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for="comments">Any comments or suggestions?</label>
+            <textarea id="comments" name="comment" cols="30" rows="10"
+            placeholder="Enter your comment here..."></textarea>
+            
+          </div>
+
+          <button>CLAIM YOUR FREE TRIAL</button type="submit">
+      </form>
+
+      
+    </section>
+    <!-- <section id="derecha">
+      
+      First Name
+      Last Name
+      Email Address
+      Password
+      Claim your free trial
+      By clicking the button, you are agreeing to our Terms and Services
+    </section> -->
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a target="blank" href="https://www.github.com/samuelpklm">Samuel Rodriguez</a>.
+      </p>
+    </footer>
+  </main>
+  
+  
+</body>
+</html>
