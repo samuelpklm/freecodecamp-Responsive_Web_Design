@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header id="header">
+        <nav class="menu nav-link">
+            <img id="header-img" src="./image/Logo.svg" alt="" class="nav-logo">
+            <span>PianoChop</span>
+            <ul  class="menu-contenido">
+              <li><a href="#feacture">Features</a></li>
+              <li><a href="#How-it-Works">How it Works</a></li>
+              <li><a href="#price">Pricing</a></li>
+            </ul>
+            <div>
+                <img id="bars" src="./image/bars.svg" alt="" style="height: 2rem;">
+                <ul class="show-font">
+                    <li><a href="#feacture">Features</a></li>
+                    <li><a href="#How-it-Works">How it Works</a></li>
+                    <li><a href="#price">Pricing</a></li>
+                </ul>
+            </div>
+        </nav>
+    <section class="contenedor-slider-slider">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Handcrafted, home-made masterpieces</label>
+            <input type="email" id="email" placeholder="Email">
+            <button id="submit">enviar</button type="submit">
+        </form>
+        <div class="contenedor-slider">
+                <div class="slider-container">
+                    <div class="image-container" style="background-image: url(./image/Concierto-piano.jpg);"></div>
+                    <div class="image-container" style="background-image: url(./image/9552756.jpg);"></div>
+                    <div class="image-container" style="background-image: url(./image/maxresdefault.jpg);"></div> 
+                </div>
+        </div>
+    </section>
+</header>
+<section>
+    <h1><span>PianoChop</span> We sell pianos</h1>
+    <div id="feacture">
+        <img src="./image/Piano.svg" alt="">
+        <p>
+            We offer all kinds of piano, the best brands, stanley, yamaha, Casio among others. You can get a wall piano that fits into everyday home settings, you can get a keyboard that perfectly mimics a piano, perfect for portability, or you can even get a professional grand piano that fits in a living room or bedroom. designated space.
+        </p>
+    </div>
+    <div id="How-it-Works">
+        <p>
+            Transporting a piano to your customer is a delicate job, so the company offers a professional shipping and installation team to ensure that your piano is not affected by moisture, or suffer cracks in the wood that spoil the pure sound of the piano. piano. We guarantee a maximum time of one week for the delivery of the product, in addition to offering intelligent tracking of the product.
+        </p>
+        <img src="./image/camion.svg" alt="">
+    </div>
+    <div id="Pricing">
+        <img src="./image/Nota.svg" alt="">
+        <p>
+            Even the best pianos deteriorate over time, either because of it or because it suffered an accident, we offer an additional repair service and advice for the treatment of possible failures that may occur with your instruments. These services also cover the product warranty. The pianochop company takes care of any imperfection that the piano may have from the factory, either physically or sonically.
+        </p>
+    </div>
+</section>
+
+<section id="show-instrument">
+    <h2>Our live instruments</h2>
+    <div class="contenedor-video">
+        <label for="piano">Watch la la lang playing one of the new best pianos!!!</label>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/bIpMSBmAE_s" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="price">
+    <h2>Price</h2>
+    <div class="contenedor-tarjetas">
+        <div class="tarjeta">
+            <img src="./image/Piano 1.jpg" alt="" style="width: 200px;">
+            <h3>Yamaha keyboard</h3>
+
+            <p>Perfect for any space in the house, and with a sound identical to that of the best pianos
+            </p>
+            <button>450$</button>
+        </div>  
+        
+            <div class="tarjeta">
+                <img src="./image/Piano 2.jpg" alt="" style="width: 200px;">
+                <h3>casio wall piano</h3>
+    
+                <p>Perfect for any space in the house, and with a sound identical to that of the best pianos
+                </p>
+                <button>850$</button>
+            </div>
+            <div class="tarjeta">
+                <img src="./image/Piano 3.jpg" alt="" style="width: 200px;">
+                <h3>Piano stenway&song</h3>
+    
+                <p>Perfect for any space in the house, and with a sound identical to that of the best pianos
+                </p>
+                <button>1250$</button>
+            </div>
+    
+    </div>
+    
+
+</section>
+
+<footer>
+    <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div>Copyright 2016, Original PianoChop</div>
+</footer>
+    
+<script src="./jquery-3.6.0.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
