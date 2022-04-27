@@ -1,4 +1,4 @@
-# Freecodecamp - Survey Form
+# Freecodecamp - Landing Page
 
 This is a solution to the [Build a product Landing Page, proyect 3 for responsive web design certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page). 
 
