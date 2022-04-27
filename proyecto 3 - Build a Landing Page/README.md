@@ -1,6 +1,6 @@
 # Freecodecamp - Survey Form
 
-This is a solution to the [Build a product Landing Page, proyect 3 for responsive web design certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page). 
+This is a solution to the [Build a product Landing Page, proyect 3 for responsive web design certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page). 
 
 ## Table of contents
 
@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solucion Page tribute](https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/Proyecto%201%20-%20Build%20a%20Tribute%20Page)
-- Live Site URL: [Page tribute](https://glowing-druid-b887c6.netlify.app/)
+- Solution URL: [Solucion Landing Page](https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/proyecto%203%20-%20Build%20a%20Landing%20Page)
+- Live Site URL: [Landing Page](https://rococo-praline-a46051.netlify.app/)
 
 ## My process
 
