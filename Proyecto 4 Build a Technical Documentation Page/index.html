@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Python</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <img id="bars" src="./IMG/bars.svg" alt="" style="width: 15px;">
+        <nav>
+            
+            <header>Documentacion Python</header>
+            <ul>
+                <a href="#Introduction"><li>Introduction</li></a>
+                <a href="#What-you-should-already-know"><li>What you should already know</li></a>
+                <a href="#python"><li>Python</li></a>
+                <a href="#Hello-world"><li>Hello world</li></a>
+                <a href="#Variables"><li>Variables</li></a>
+                <a href="#Declaring-variables"><li>Declaring variables</li></a>
+                <a href="#Variable-scope"><li>Variable scope</li></a>
+                <a href="#Global-variables"><li>Global variables</li></a>
+                <a href="#Constants"><li>Constants</li></a>
+                <a href="#Data-types"><li>Data types</li></a>
+                <a href="#if...else statement"><li>if...else statement</li></a>
+                <a href="#while-statement"><li>while statement</li></a>
+                <a href="#function-declarations"><li>function declarations</li></a>
+                <a href="#Reference"><li>Reference</li></a>
+            </ul>
+        </nav>
+
+    <main>
+        <section id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>
+                    Python es un lenguaje de programación de propósito general muy poderoso y flexible, a la vez que sencillo y fácil de aprender.
+                </p>
+                <p>
+                    En esta lección se busca introducir al lenguaje Python, sus características, modos de instalación, soporte comunitario, y los recursos mas destacados disponibles en la Web para tomar en cuenta. A continuación el temario de esta lección:
+                </p>
+                <ul>
+                    <li>Este lenguaje simplifica mucho la programación «hace que te adaptes a un modo de lenguaje de programación, Python te propone un patrón». Es un gran lenguaje para scripting, si usted requiere algo rápido (en el sentido de la ejecución del lenguaje), con unas cuantas líneas ya está resuelto.</li>
+                    <li>El lenguaje le da muchas herramientas, si usted quiere listas de varios tipo de datos, no hace falta que declares cada tipo de datos. Es un lenguaje tan flexible usted no se preocupa tanto por los detalles.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="What-you-should-already-know">
+            <header>What you should already know</header>
+            <article>
+                <p>
+                    Cuando instalas Python correctamente (en cualquier sistema operativo) ocurren, entre otras, dos cosas: se añade el comando python (o python3, en caso de que instales la versión 3.x de Python) al path y se instala el intérprete de Python correspondiente.
+                </p>
+                <p>
+                    Si ya has instalado Python, abre una consola o terminal y ejecuta el comando python3. Este comando lanzará el intérprete de Python correspondiente.
+                </p>
+                <p>
+                    En el intérprete de Python podemos escribir expresiones e instrucciones que este interpretará y ejecutará.
+                </p>
+            </article>
+        </section>
+        <section id="python">
+            <header>Python</header>
+            <article>
+                <p>
+                    Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, se utiliza para desarrollar aplicaciones de todo tipo, ejemplos: Instagram, Netflix, Panda 3D, entre otros.2​ Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.
+                </p>
+                <p>
+                    Administrado por Python Software Foundation, posee una licencia de código abierto, denominada Python Software Foundation License.3​ Python se clasifica constantemente como uno de los lenguajes de programación más populares.
+                </p>
+                <p>
+                    Python fue creado a finales de los años ochenta4​ por Guido van Rossum en el Centro para las Matemáticas y la Informática (CWI, Centrum Wiskunde & Informatica), en los Países Bajos, como un sucesor del lenguaje de programación ABC, capaz de manejar excepciones e interactuar con el sistema operativo Amoeba.5​
+                </p>
+            </article>
+        </section>
+        <section id="Hello-world">
+            <header>Hello world</header>
+            <article>
+                <p>
+                    A simple program that displays “Hello, World!”. It's often used to illustrate the syntax of the language.
+                </p>
+                <pre>
+# This program prints 
+Hello, world!
+
+print('Hello, world!')
+
+                </pre>
+            </article>
+        </section>
+        <section id="Variables">
+            <header>Variables</header>
+            <article>
+                <p>
+                    En algunos lenguajes de programación, las variables se pueden entender como "cajas" en las que se guardan los datos, pero en Python las variables son "etiquetas" que permiten hacer referencia a los datos (que se guardan en unas "cajas" llamadas objetos).
+                </p>
+                <p>
+                    Así, al describir la instrucción anterior no habría que decir 'la variable a almacena el número entero 2', sino que habría que decir 'podemos llamar a al objeto número entero 2'. La variable a es como una etiqueta que nos permite hacer referencia al objeto "2", más cómoda de recordar y utilizar que el identificador del objeto.
+                </p>
+                <p>
+                    Las variables en Python se crean cuando se definen por primera vez, es decir, cuando se les asigna un valor por primera vez. Para asignar un valor a una variable se utiliza el operador de igualdad (=). A la izquierda de la igualdad se escribe el nombre de la variable y a la derecha el valor que se quiere dar a la variable.
+                </p>
+            </article>
+        </section>
+        <section id="Declaring-variables">
+            <header>Declaring variables</header>
+            <article>
+                <p>
+                    Las variables en Python se crean cuando se definen por primera vez, es decir, cuando se les asigna un valor por primera vez. Para asignar un valor a una variable se utiliza el operador de igualdad (=). A la izquierda de la igualdad se escribe el nombre de la variable y a la derecha el valor que se quiere dar a la variable.
+                </p>
+                <pre>
+>>> x = 2.5
+                </pre>
+            </article>
+        </section>
+        <section id="Variable-scope">
+            <header>Variable scope</header>
+            <article>
+                <p>
+                    The scope of a variable in python is that part of the code where it is visible. Actually, to refer to it, you don’t need to use any prefixes then.
+                </p>
+                <pre>
+>>> b=8
+>>> def func():
+    a=7
+    print(a)
+    print(b)              
+>>> func()
+                </pre>
+            <p>
+                In the above code, we define a variable ‘a’ in a function ‘func’. So, ‘a’ is local to ‘func’. Hence, we can read/write it in func, but not outside it.
+            </p>
+            <pre>
+>>> a=0
+>>> def func():
+    print(a)
+    a=1
+    print(a)            
+>>> func()
+            </article>
+            </pre>
+        </section>
+        <section id="Global-variables">
+            <header>Global variables</header>
+            <article>
+                <p>
+                    Variables that are created outside of a function (as in all of the examples above) are known as global variables.
+                    Global variables can be used by everyone, both inside of functions and outside.
+
+                    Create a variable outside of a function, and use it inside the function
+                </p>
+                <pre>
+x = "awesome"
+
+def myfunc():
+print("Python is " + x)
+                    
+myfunc()
+                </pre>
+            </article>
+            
+        </section>
+        <section id="Constants">
+            <header>Constants</header>
+            <article>
+                <p>
+                    In Python, constants are usually declared and assigned in a module. Here, the module is a new file containing variables, functions, etc which is imported to the main file. Inside the module, constants are written in all capital letters and underscores separating the words.
+                </p>
+                <pre>
+PI = 3.14
+GRAVITY = 9.8
+                </pre>
+            </article>
+            
+        </section>
+        <section id="Data-types">
+            <header>Data types</header>
+            <article>
+                <p>
+                    In programming, data type is an important concept.
+
+                    Variables can store data of different types, and different types can do different things.
+                    
+                    Python has the following data types built-in by default, in these categories:
+                </p>
+                <ul>
+                    <li>Text Type:	str</li>
+                    <li>Numeric Types:	int, float, complex</li>
+                    <li>Sequence Types:	list, tuple, range</li>
+                    <li>Mapping Type:	dict</li>
+                    <li>Set Types:	set, frozenset</li>
+                    <li>Boolean Type:	bool</li>
+                    <li>Binary Types:	bytes, bytearray, memoryview</li>
+                </ul>
+            </article>
+            
+        </section>
+        <section id="if...else statement">
+            <header>if...else statement</header>
+            <article>
+                <p>
+Decision making is required when we want to
+ execute a code only if a certain condition is satisfied.
+
+The if…elif…else statement is used in Python for decision making.
+
+Python if Statement Syntax
+                </p>
+                <pre>
+if test expression:
+statement(s)
+                </pre>
+                <p>Example: Python if Statement</p>
+                <pre>
+
+# If the number
+is positive,
+we print an appropr
+iate message
+
+
+num = 3
+if num > 0:
+print(num, "is a
+ positive number.")
+print("This 
+is always printed.")
+
+num = -1
+if num > 0:
+print(num, "is
+a positive number.")
+print("This is also 
+always printed.")
+                </pre>
+            </article>
+            
+        </section>
+        <section id="while-statement">
+            <header>while statement</header>
+            <article>
+                <p>
+With the while loop we can execute a set 
+of statements as long as a condition is true.
+
+Example
+Print i as long as i is less than 6:
+                </p>
+                <pre>
+i = 1
+while i < 6:
+print(i)
+i += 1
+                </pre>
+            </article>
+            
+        </section>
+        <section id="function-declarations">
+            <header>function declarations</header>
+            <article>
+                <p>
+A function is a block of code which only runs when it is called.
+
+You can pass data, known as parameters, into a function.
+                    
+ A function can return data as a result.
+                    
+Creating a Function
+In Python a function is defined using the def keyword:
+                </p>
+                <pre>
+def my_function():
+print("Hello 
+  from a function")
+                </pre>
+            </article>
+            
+        </section>
+        <section id="Reference">
+            <header>Reference</header>
+            <article>
+                <ul>
+                    <li>Keep learning about python at: <a target="blank" href=" https://www.w3schools.com/python/default.asp">w3schools</a></li>
+                </ul>
+            </article>
+            
+        </section>
+    </main>
+
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
