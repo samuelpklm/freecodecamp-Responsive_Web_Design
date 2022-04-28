@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solucion Landing Page](https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/proyecto%203%20-%20Build%20a%20Landing%20Page)
-- Live Site URL: [Landing Page](https://rococo-praline-a46051.netlify.app/)
+- Solution URL: [Solucion Technical Documentation Page](https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/Proyecto%204%20Build%20a%20Technical%20Documentation%20Page)
+- Live Site URL: [Technical Documentation Page](https://eloquent-peony-71abc8.netlify.app/)
 
 ## My process
 
